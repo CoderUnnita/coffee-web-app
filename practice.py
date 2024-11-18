@@ -1,10 +1,16 @@
-a=12
+#cube-calculator
+
+a = float(input("Enter Your Number:"))
 cube=a*a*a
 print ("The Cube ",cube)
-''' This is my multi line comment'''
+
+#ends-here
+
 
 # Calculator code
+
 num1=float(input("Enter Your First Number:"))
+
 num2=float(input("Enter Your Second Number:"))
 
 print("Select The Action You Want To Perform :-")
@@ -33,3 +39,4 @@ elif opert==4:
 
 else:
     print("Invalid Number , Can't Perform Any Opration :)")
+
