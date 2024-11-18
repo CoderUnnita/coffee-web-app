@@ -40,3 +40,20 @@ elif opert==4:
 else:
     print("Invalid Number , Can't Perform Any Opration :)")
 
+#swapping of numbers
+
+a = float(input("Enter Your Number:"))
+b = float(input("Enter Your Number:"))
+
+print( " before swapping " )
+
+print("Number 1:", a)
+print("Number 2:", b)
+
+print("After Swapping")
+
+print(a)
+print(b)
+
+print("Number 1:",b)
+print("Number 2:",a)
